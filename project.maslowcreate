@@ -42,6 +42,16 @@
             ]
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "Convert Inches to MM",
+            "x": 0.7010582010582012,
+            "y": 0.1923076923076923,
+            "uniqueID": 928850,
+            "projectID": "433653657",
+            "ioValues": [],
+            "simplify": false
+        },
+        {
             "atomType": "Rotate",
             "name": "Rotate",
             "x": 0.32275132275132273,
@@ -69,8 +79,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5879629629629629,
-            "y": 0.5961538461538461,
+            "x": 0.591931216931217,
+            "y": 0.592948717948718,
             "uniqueID": 933662,
             "ioValues": [
                 {
@@ -80,6 +90,19 @@
                 {
                     "name": "height",
                     "ioValue": 0.2
+                }
+            ]
+        },
+        {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.830026455026455,
+            "y": 0.3076923076923077,
+            "uniqueID": 572287,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/479902/928850GitHubMolecule"
                 }
             ]
         },
@@ -120,6 +143,13 @@
             "ap2ID": 933662
         },
         {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 928850,
+            "ap2ID": 572287
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
@@ -132,6 +162,13 @@
             "ap2Primary": false,
             "ap1ID": 933662,
             "ap2ID": 688625
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Geometry",
+            "ap2Primary": false,
+            "ap1ID": 933662,
+            "ap2ID": 928850
         }
     ],
     "fileTypeVersion": 1,
